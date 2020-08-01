@@ -1,14 +1,58 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "walkers": [
+  {
+    "id": 1,
+    "stars":5,
+    "name": "Diego Arce",
+    "extra":["training","comb","walks to veterinans"],
+    "active": true
+  },
+  {
+    "id": 2,
+    "stars":4,
+    "name": "Juan Perez",
+    "extra":["training","comb"],
+    "active": false
+
+  },
+  {
+    "id": 3,
+    "stars":3,
+    "name": "Gabriel Aguilar",
+    "extra":["comb","walks to veterinans"],
+    "active": true
+  }],
+
+  "pets": [
+  {
+    "id": 1,
+    "name": "Aika",
+    "age": 4,
+    "owner":"Diego Reyes",
+    "address": "San José",
+    "stars":4,
+    "animal type":"dog",
+    "brace":"collie"
+
+  },
+  {
+    "id": 1,
+    "name": "Thor",
+    "age": 2,
+    "owner":"Frank Mendez",
+    "address":"Heredia, San Isidro",
+    "stars":5,
+    "animal type":"cat",
+    "brace":""
+  },
+  {
+    "id": 3,
+    "name": "Gala",
+    "age": 1,
+    "owner":"Pedro Infante",
+    "address":"Heredia, Mercedes Norte",
+    "stars":5,
+    "animal type":"dog",
+    "brace":"Bobtail"
+  }]
 }
